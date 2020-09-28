@@ -1,0 +1,200 @@
+*{
+	margin: 0px;
+}
+
+
+body{
+	background: rgb(81, 235, 255);
+	color: white;
+}
+
+.h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+}
+
+h1 strong{
+	color:#e62727 ;
+}
+
+ul{
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	display:flex;
+	height:inherit;
+}
+
+.logo img{
+	width:100px;
+}
+
+.menu{
+height:inherit;
+}
+
+/*
+.padre{
+background:white;
+display:flex;
+flex-wrap:nowrap;
+flex-direction:row;
+justify-content:center;
+height:500px;
+align-items:center;
+justify-content:center;
+
+}
+
+.hijo{
+	background:orange;
+	width:200px;
+	height:200px;
+	border: 2px solid yellowgreen;
+	font-size:30px;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center ;
+}
+*/
+
+
+.aplicar{
+	height: 500px;
+	background: rgb(163, 93, 255);
+	display: flex;
+	color: rgb(255, 255, 255);
+
+
+}
+
+.aplicar-detalles{
+	width: 50%;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:0px 30px;
+	text-align: center;
+}
+
+.container1{
+	display:flex;
+	background: #99cc00;
+	padding: 20px;
+	justify-content: space-around;
+
+}
+
+.container2{
+	background: rgb(141, 38, 141);
+}
+
+.col1-conteiner1{
+    width: 400px;
+}
+
+
+.col2-container2{
+    width: 200px;
+}
+
+.col3-container3{
+    width: 300px;
+}
+
+.aplicar-detalles img {
+ height: 90%;
+}
+
+.row1-contacto{
+	display: flex;
+	margin: 10px 0px;
+}
+
+.row2-contacto img{
+	width: 35px;
+	height: 25px;
+}
+
+.row1-contactoredesredes {
+	width: 35px;
+	height: 25px;
+}
+
+.row1-contacto p{
+	padding-left: 10px;
+}
+
+
+.navegador{
+	background: #681074c9;
+	color: white;
+	display: flex;
+	justify-content:space-between;
+	height: 110px;
+}
+
+
+
+.navegador li{
+	height:inherit;
+}
+
+.navegador a{
+	color: white;
+    text-decoration: none;
+	height: inherit;
+	display: flex;
+	align-items: center;
+	padding:0px 10px ;
+}
+
+.informacion{
+	background:rgb(81, 235, 255)  ;
+	background-image: url('img/fondoEspacio.png');
+	background-size: cover;
+	background-repeat:no-repeat ;
+	text-align: center;
+	padding: 120px;
+}  
+
+.informacion-boton{
+	width: 250px;
+	height: 40px;
+	background-color: #99cc00;
+	border-radius: 24px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.informacion img{
+ width: 300px;
+}
+
+.row1-contacto img{
+	width: 35px;
+	height: 25px;
+}
+
+.somos{
+	background: rgb(81, 235, 255);
+	color: rgb(0, 0, 0);
+	text-align: center;
+	margin:  50px 100px ;
+	padding: 200px 25px;
+}
+
+
+
+.cristian2{
+	background:rgb(81, 235, 255);
+	text-align: left;
+	margin: 50px 100px 25px 200px;
+	padding: 100px 50px 25px 200px;
+}
+
